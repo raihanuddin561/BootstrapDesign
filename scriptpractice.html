@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 m-auto">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group row">
+							<div class="col-form-label col-sm-3">
+								First name:
+							</div>
+							<div class="col-sm-9">
+								<input type="text" name="first_name" id="firstName">
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-form-label col-sm-3">
+								Last name:
+							</div>
+							<div class="col-sm-9">
+								<input type="text" name="last_name" id="lastName">
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-form-label col-sm-3">
+								
+							</div>
+							<div class="col-sm-9">
+								<input type="submit" name="btn" id="btn" onclick="fullname(document.getElementById('firstName').value,document.getElementById('lastName').value)" class="btn btn-success" value="Submit">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+	<script>
+		function fullname(firstName,lastName){
+			var fullName = firstName +" "+ lastName;
+			alert(fullName);
+		}
+		
+	</script>
+
+
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.js">
+</body>
+</html>
