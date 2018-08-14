@@ -11,3 +11,45 @@
 	background-attachment: fixed;
 	background-size: 100% 100%;
 }
+.my-style{
+	height: 500px;
+	border:1px solid red;
+	width: 50%;
+}
+.class-one{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	border-radius: 50%;
+	transform: scale(1);
+	transition: 2s;
+
+}
+.class-two{
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	border-radius: 50%;
+	transform: scale(1);
+	transition: 2s;
+}
+.class-three{
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	transform: scale(1);
+	transition: 2s;
+}
+
+
+.class-one:hover{
+	transform: scale(1.5);
+
+}
+.class-two:hover{
+	transform: scale(1.5);
+}
+.class-three:hover{
+	transform: scale(1.5);
+}

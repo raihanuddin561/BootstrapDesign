@@ -6,10 +6,48 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<h1 id="h">Raihan</h1>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 m-auto">
+					<div class="form-group row">
+						<label class="col-form-label col-md-3">Starting </label>
+						<div class="col-md-9">
+								<input type="text" name="starting_number" id="startingNumber" class="form-control">
+						</div>
+						
+					</div>
+					<div class="form-group row">
+						<label class="col-form-label col-md-3">Ending </label>
+						<div class="col-md-9">
+								<input type="text" name="ending_number" id="endingNumber" class="form-control">
+						</div>
+						
+					</div>
+					<div class="form-group row">
+						<label class="col-form-label col-md-3">Result </label>
+						<div class="col-md-9">
+								<input type="text" name="result1" id="result1" class="form-control">
+						</div>
+						
+					</div>
+					<div class="form-group row">
+						<label class="col-form-label col-md-3"> </label>
+						<div class="col-md-9">
+								<input type="submit" class="btn btn-success btn-block" name="submit" id="submit" value="Submit">
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 m-auto">
-				<div class="card">
+			<div class="col-sm-6 m-auto ">
+				<div class="card mb-3">
 					<div class="card-body">
 						<div class="form-group row">
 							<div class="col-form-label col-sm-3">
@@ -27,6 +65,7 @@
 								<input type="text" name="last_name" id="lastName">
 							</div>
 						</div>
+
 						<div class="form-group row">
 							<div class="col-form-label col-sm-3">
 								
@@ -42,19 +81,64 @@
 		
 	</div>
 
-
-
-	<script>
-		function fullname(firstName,lastName){
-			var fullName = firstName +" "+ lastName;
-			alert(fullName);
-		}
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 m-auto ">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group row">
+							<div class="col-form-label col-sm-3">
+								First Number:
+							</div>
+							<div class="col-sm-9">
+								<input type="text" name="first_number" id="firstNumber">
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-form-label col-sm-3">
+								Last Number:
+							</div>
+							<div class="col-sm-9">
+								<input type="text" name="last_number" id="lastNumber">
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-form-label col-sm-3">
+								Result:
+							</div>
+							<div class="col-sm-9">
+								<input type="text" name="result2" id="result2">
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="col-form-label col-sm-3">
+								
+							</div>
+							<div class="col-sm-9">
+								<input type="submit" name="addition" id="addition" class="btn btn-success" value="+">
+								<input type="submit" name="substraction" id="substraction" class="btn btn-success" value="-">
+								<input type="submit" name="multiplication" id="multiplication" class="btn btn-success" value="*">
+								<input type="submit" name="divition" id="divition" class="btn btn-success" value="/">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
-	</script>
+	</div>
+
+<button type="button" class="btn btn-danger" id="redBtn">Red</button>
+<button type="button" class="btn btn-success" id="greenBtn">Green</button>
+<button type="button" class="btn btn-primary" id="blueBtn">Blue</button>
+<button type="button" class="btn btn-dark" id="defaultBtn">Default</button>
+<div class="col-md-6 my-style mb-3 " id="divOne"> </div>
+
 
 
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/bootstrap.js">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/my-script.js"> </script>
 </body>
 </html>
