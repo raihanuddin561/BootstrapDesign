@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class = "row">
+			<div class="col-sm-6 m-auto">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group row">
+							<label class="col-form-label col-sm-3">First name</label>
+							<div class="col-sm-9">
+								<input type = "text" name = "firstname" id="firstname">
+							</div>
+							<label class="col-sm-12 warninglabel" id="firstfield"></label>
+						</div>
+						<div class="form-group row">
+							<label class="col-form-label col-sm-3">Last name</label>
+							<div class="col-sm-9">
+								<input type = "text" oninput="demo()" name = "lastname" id="lastname">
+							</div>
+							<label class="col-sm-12 warninglabel" id="lastnameLabel"></label>
+						</div>
+						<div class="form-group row">
+							<label class="col-form-label col-sm-3"></label>
+							<div class="col-sm-9">
+								<input type = "Submit"  name = "btn" value="Submit" id="btn" class="btn btn-success">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/eleven.js"></script>
+</body>
+</html>
