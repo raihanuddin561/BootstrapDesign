@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<form action="" method="post" id="registrationForm">
+	<table>
+		<tr>
+			<td>First Name:</td>
+			<td><input type="text" name="firstname" id="firstName">
+				<span id="firstNameError"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" name="lastname" id="lastName">
+				<span id="lastNameError"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>Email Address:</td>
+			<td><input type="email" name="email" id="emailAddress">
+				<span id="emailError"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>Password :</td>
+			<td><input type="password" name="password" id="password">
+				<span id="passwordError"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>Confirm Password:</td>
+			<td><input type="password" name="confirmpassword" id="confirmPassword">
+				<span id="confirmPasswordError"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>Location:</td>
+			<td><select name="location" id="location">
+				<option>select</option>
+				<option>Dhaka</option>
+				<option>Sylhet</option>
+				<option>Rajshahi</option>
+			</select>
+			<span id="locationError"></span>
+		</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" value="Submit" id="btn"></td>
+		</tr>
+	</table>
+
+	
+		
+	</form>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>
