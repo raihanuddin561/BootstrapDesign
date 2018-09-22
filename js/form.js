@@ -28,6 +28,17 @@ function checkConfirmPassword(){
 		$("#confirmPasswordError").text("");
 	}
 }
+
+function checkEmail(){
+	var pattern = new RegExp(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+	if(pattern.test($("#emailAddress").val())){
+		$("#emailError").text("");
+	}else{
+		$("#emailError").text("Invalid email");
+	}
+}
+
+
 $("#firstName").click(function(){
 		checkFirstname();
 	});
@@ -60,14 +71,7 @@ $("#confirmPassword").blur(function(){
 });
 
 
-function checkEmail(){
-	var pattern = new RegExp(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
-	if(pattern.test($("#emailAddress").val())){
-		$("#emailError").text("");
-	}else{
-		$("#emailError").text("Invalid email");
-	}
-}
+
 
 
 
