@@ -10,7 +10,7 @@ $("#lname").blur(function(){
 	var lastname = $("#lname").val();
 	var fullname = firstname+" "+lastname;
 	$("#tblfullname").text(fullname);
-})
+});
 
 function createContent(){
 	var newHeadingElement = document.createElement("h1");
